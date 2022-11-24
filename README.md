@@ -20,10 +20,6 @@ For each hypernym, the list of co-hyponyms are sorted according to (x) in descen
 country: united kingdom (10), israel (9), japan (9)
 ```
 
-To use part 1 the program requires the input of two arguments:
-```
-(1) the path to the directory of the corpus and (2) the path to the output file.
-```
 
 ## Part 2 
 The functionality to search all the possible hypernyms of the input lemma and print them to the console as follows:**
@@ -36,12 +32,29 @@ hypernym2: (x)
 (across all possible patterns) in the corpus.**
 The hypernyms are sorted in a descending order according to (x).
 
-To use part 2 the program requires the input of two arguments:
-```
-(1) the absolute path to the directory of the corpus and (2) a lemma.
-```
 
 ## Example
 This is a part of the text file output after processing a 52 GB corpus in 45 seconds using a home PC's computational resources.
 
 ![image](https://user-images.githubusercontent.com/62385332/203856631-f1e04dd5-792f-4546-a335-3196c6753459.png)
+
+
+## Installation
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/LiavBurger/Regex-Hypernym-Database.git
+    ```
+2. Download the corpus from [here](https://drive.google.com/drive/folders/11aVnX9r-k5iy2GafZd-o5lBBgeNRuFDN?usp=sharing)
+3. Open the project from an IDE of your choice.
+4. Create configuration with CreateHypernymDatabase or DiscoverHypernym as the Main Class and add two arguments as follows:
+
+To use part 1 (CreateHypernymDatabase):
+```
+(1) the absolute path to the directory of the corpus and (2) the path to the output file.
+```
+
+To use part 2 (DiscoverHypernym):
+```
+(1) the absolute path to the directory of the corpus and (2) a lemma.
+```
