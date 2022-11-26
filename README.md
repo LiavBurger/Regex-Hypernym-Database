@@ -45,7 +45,7 @@ The hypernyms are sorted in a descending order according to (x).
     git clone https://github.com/LiavBurger/Regex-Hypernym-Database.git
     ```
 2. Download the corpus from [here](https://drive.google.com/drive/folders/11aVnX9r-k5iy2GafZd-o5lBBgeNRuFDN?usp=sharing)
-3. Open the project from an IDE of your choice.
+3. Open the project from your IDE of choice.
 4. Create configuration with CreateHypernymDatabase or DiscoverHypernym as the Main Class and add two arguments as follows:
 
 To use part 1 (CreateHypernymDatabase):
