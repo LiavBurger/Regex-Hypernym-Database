@@ -22,7 +22,7 @@ country: united kingdom (10), israel (9), japan (9)
 
 
 ## Part 2 
-The functionality to search all the possible hypernyms of the input lemma and print them to the console as follows:**
+The functionality to search all the possible hypernyms of the input lemma and print them to the console as follows:
 ```
 hypernym1: (x)
 hypernym2: (x)
@@ -34,7 +34,6 @@ The hypernyms are sorted in a descending order according to (x).
 
 
 ## Example
-This is a part of the text file output after processing a 52 GB corpus in 45 seconds using a home PC's computational resources.
 
 ![image](https://user-images.githubusercontent.com/62385332/203856631-f1e04dd5-792f-4546-a335-3196c6753459.png)
 
